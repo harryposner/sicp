@@ -15,5 +15,4 @@
 ; together with the supervisor’s name and job.
 
 (and (supervisor ?person ?boss)
-     (not ())
-     )
+     (not (job ?boss (computer . ?boss-job-type))))
